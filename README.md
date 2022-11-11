@@ -17,19 +17,17 @@ Generated sample word cloud:
 </center>
 
 ## Technologies
-It uses Python with basic libraries, [this word cloud generator](https://amueller.github.io/word_cloud/index.html) and [matplotlib](https://matplotlib.org/stable/index.html) library.
-
-Missing libraries can be installed via:
+It uses Python with basic libraries, [this word cloud generator](https://amueller.github.io/word_cloud/index.html) and [matplotlib](https://matplotlib.org/stable/index.html) library in versions:
 ```
-pip install wordcloud
-pip install matplotlib
-```
-or
-```
-conda install wordcloud
-conda install matplotlib
+python==3.10.6
+wordcloud==1.8.2.2
+matplotlib==3.6.1
 ```
 Besides, to run [`word-cloud.ipynb`](https://github.com/mowczarz/word-cloud-from-meesenger/blob/main/word-cloud.ipynb) (an alternative to [`word-cloud.py`](https://github.com/mowczarz/word-cloud-from-meesenger/blob/main/word-cloud.py)) you need a program that supports jupyter notebooks.
+```
+jupyterlab==3.4.4
+IPython==8.4.0
+```
 ## Usage
 It's really easy.
 
