@@ -12,9 +12,9 @@ This repository contains an easy-to-use program, which let you easily generate a
 
 Generated sample word cloud:
 
-<center> 
+<p align="center">
 <img alt='wordcloud_sample' src="images/word-cloud-sample.png" height="400" width="400">
-</center>
+</p>
 
 ## Technologies
 It uses Python with basic libraries, [this word cloud generator](https://amueller.github.io/word_cloud/index.html) and [matplotlib](https://matplotlib.org/stable/index.html) library in versions:
@@ -39,9 +39,9 @@ It's really easy.
 
 4. Launch the program. You'll see the top 10 users with the most messages.
 
-<center> 
+<p align="center">
 <img alt='console' src="images/terminal.png">
-</center>
+</p>
 
 5. Select the user for whom you want to generate a cloud of words. You can do this by entering a place in the list generated above, (e.g. `1`) or by entering any full username, such as `Mark DeVolay`.
 
